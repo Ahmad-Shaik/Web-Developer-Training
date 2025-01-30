@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #d1d5ee;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .header {
+            background-color: #001eff;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px;
+            flex: 1;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            border: 2px solid blue;
+            text-align: center;
+            font-weight: bold;
+            padding: 20px;
+            width: 250px;
+            height: 300px;
+        }
+
+        .card img {
+            width: 150px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            font-size: 20px;
+            color: black;
+            margin: 10px 0;
+        }
+
+        .card p {
+            color: black;
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .card a {
+            color: #001eff;
+            text-decoration: none;
+        }
+
+        .card button {
+            background-color: yellow;
+            color: blue;
+            margin-top: 20px;
+            font-size: 15px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Resume</h1>
+    </header>
+
+    <div class="container">
+        <!-- Card 1 -->
+        <div class="card">
+            <img src="profile.jpg" alt="Profile">
+            <h3>Anusha</h3>
+            <p>Trainer cum Developer</p>
+            <p>&#x1F4E7;<a href="mailto:anusha@gmail.com">anusha@gmail.com</a></p>
+            <p>&#9990; 9052507933</p>
+            <button>ResumePage</button>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="profile.jpg" alt="Profile">
+            <h3>Survarna</h3>
+            <p>Junior Software Trainee</p>
+            <p>&#x1F4E7;<a href="mailto:suvarna@gmail.com">suvarna@gmail.com</a></p>
+            <p>&#9990; 9052507933</p>
+            <button>ResumePage</button>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="profile.jpg" alt="Profile">
+            <h3>Madhuri</h3>
+            <p>Junior Software Trainee</p>
+            <p>&#x1F4E7;<a href="mailto:madhuri@gmail.com">madhuri@gmail.com</a></p>
+            <p>&#9990; 9052507933</p>
+            <button>ResumePage</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>skill hub Resume &#169; 2024-2025</p>
+    </footer>
+</body>
+</html>
